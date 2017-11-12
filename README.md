@@ -23,7 +23,7 @@ To use the gem you must require it in the file you need it via `require 'tempera
   # converted into the new scale.
   temp_converter.convert_temperature('fahrenheit', 32)
 ```
-# Report Bug Or Request And Enhancement.
+# Report Bug Or Request An Enhancement.
 Just open up an issue in this repo to report a bug or submit a feature request.
 
 # Want To Contribute?
