@@ -2,7 +2,7 @@ require 'custom_exceptions/strategy_exception'
 require 'custom_exceptions/invalid_temperature_exception'
 class TemperatureConverter
     attr_reader :convert_strategy
-    ACCETPTED_STRATEGY = ['celsius', 'fahrenheit', 'kelvin'].map(&:freeze).freeze 
+    ACCETPTED_STRATEGY = ['celsius', 'fahrenheit', 'kelvin'].map(&:freeze).freeze
 
     def initialize(convert_from)
       raise StrategyNotSupportedError unless ACCETPTED_STRATEGY.include?(convert_from)
