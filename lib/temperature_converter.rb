@@ -1,4 +1,6 @@
 class TemperatureConverter
+    attr_reader :convert_strategy
+
     def initialize(convert_from)
       @convert_strategy = Object.const_get("#{convert_from.capitalize}Strategy").new
     end
