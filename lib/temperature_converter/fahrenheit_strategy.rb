@@ -1,4 +1,5 @@
 require 'temperature_converter/strategy_interface'
+
 class FahrenheitStrategy < StrategyInterface
 
   def convert_temperature(convert_to, temperature)
@@ -11,7 +12,7 @@ class FahrenheitStrategy < StrategyInterface
     when 'fahrenheit'
       temperature
     else
-      raise "This Scale is currently not supported"
+      raise ScaleNotSupportedError
     end
   end
 
