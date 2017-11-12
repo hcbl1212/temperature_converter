@@ -5,7 +5,7 @@ class StrategyInterface
   #I am doing here. For sake of sticking to the GOF implementation I will
   #use this class and method as an interface.
   def convert_temperature(convert_to, temperature)
-    raise "Must implement this method."
+    raise RuntimeError, 'Must implement this method.'
   end
 
 end

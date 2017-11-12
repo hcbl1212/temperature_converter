@@ -11,7 +11,7 @@ class FahrenheitStrategy < StrategyInterface
     when 'fahrenheit'
       temperature
     else
-      raise "This Scale is currently not supported"
+      raise RuntimeError, 'This scale is currently not supported'
     end
   end
 
