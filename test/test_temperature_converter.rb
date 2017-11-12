@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'temperature_converter'
+require 'temperature_converter_bl'
 
 class TemperatureConverterTest < Minitest::Test
 

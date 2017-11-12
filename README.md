@@ -1,7 +1,7 @@
 Temperature Converter is a simple solution to convert temperatures from one scale to another.
-# Installation
-Add `gem temperature_conversion` to your `Gemfile` and then run `bundle install` or run `gem install temperature_conversion`.
 
+# Installation
+Add `gem temperature_conversion_bl` to your `Gemfile` and then run `bundle install` or run `gem install temperature_conversion_bl`.
 
 # Supported Scales
   * Kelvin
