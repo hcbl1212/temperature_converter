@@ -1,6 +1,6 @@
 Gem::Specification.new do | s |
     s.name        = 'temperature_converter'
-    s.version     = '0.0.1'
+    s.version     = '1.0.0'
     s.date        = '2017-11-11'
     s.summary     = 'Converts temperatures from one scale to another.'
     s.description = 'A temperature converter that takes a temperature from one scale and converts it to another.'
