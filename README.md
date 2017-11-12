@@ -21,5 +21,7 @@ To use the gem you must require it in the file you need it via `require 'tempera
   # To convert a temperature to another scale just call the convert temperature method on TemperatureConverter object.
   # The first arguement is the scale you will be converting to and the second arguement is the temperature that needs to 
   # converted into the new scale.
-  temp_convere.convert_temperature('fahrenheit', 32)
+  temp_converter.convert_temperature('fahrenheit', 32)
 ```
+# License
+MIT License.
