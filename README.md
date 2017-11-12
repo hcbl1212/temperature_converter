@@ -1,17 +1,17 @@
 Temperature Converter is a simple solution to convert temperatures from one scale to another.
-#Installation
+# Installation
 Add `gem temperature_conversion` to your `Gemfile` and then run `bundle install` or run `gem install temperature_conversion`.
 
 
-#Supported Scales
+# Supported Scales
   * Kelvin
   * Fahrenheit
   * Celsius
 
-#Usage
+# Usage
 To use the gem you must require it in the file you need it via `require 'temperature_conversion'`.
 
-##Conversion Process
+## Conversion Process
 ```ruby
   # When creating a new TemperatureConverter object it takes one arguemnt which is the scale you will be
   # converting from. In this example all of the temperatures will be converted from Celsius.
@@ -22,4 +22,4 @@ To use the gem you must require it in the file you need it via `require 'tempera
   # The first arguement is the scale you will be converting to and the second arguement is the temperature that needs to 
   # converted into the new scale.
   temp_convere.convert_temperature('fahrenheit', 32)
-```  
+```
