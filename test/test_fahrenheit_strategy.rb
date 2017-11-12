@@ -20,7 +20,7 @@ class FahrenheitStrategyTest < Minitest::Test
 
   def test_must_throw_error_if_scale_is_not_supported
     strategy = FahrenheitStrategy.new
-    err = assert_raises(RuntimeError) { strategy.convert_temperature('not_real', 0) }
+    err = assert_raises(ScaleNotSupportedError) { strategy.convert_temperature('not_real', 0) }
     assert_match (/This scale is currently not supported/), err.message
   end
 

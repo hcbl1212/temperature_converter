@@ -10,7 +10,7 @@ class CelsiusStrategy < StrategyInterface
     when 'celsius'
       temperature
     else
-      raise "This scale is currently not supported"
+      raise ScaleNotSupportedError
     end
   end
 

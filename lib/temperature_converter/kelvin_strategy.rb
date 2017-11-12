@@ -10,7 +10,7 @@ class KelvinStrategy < StrategyInterface
     when 'kelvin'
       temperature
     else
-      raise RuntimeError, 'This scale is currently not supported'
+      raise ScaleNotSupportedError
     end
   end
 
